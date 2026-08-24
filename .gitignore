@@ -1,0 +1,19 @@
+# Secrets - never commit these
+.env
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Output files this app generates
+*.xlsx
+data/
+
+# OS/editor junk
+.DS_Store
+.vscode/
